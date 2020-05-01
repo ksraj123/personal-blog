@@ -1,0 +1,48 @@
+/*styling of blog post cards on homepage*/
+
+.card{
+	width: 40%;
+	margin: 5%;
+	text-align: justify;
+	padding: 1em;
+	box-sizing: border-box;
+	border-radius: 2%;
+	background-color: rgba(230, 230, 230);
+	display: flex;
+	flex-direction: column;
+}
+
+.card p{
+	font-size: 0.7em;
+	margin: 0;
+}
+
+.card h3{
+	font-weight: 200;
+}
+
+.card .seperator{
+	width: 100%;
+	height: 3px;
+	margin: 0.3em 0px;
+}
+
+.card .seperator.visible{
+	background: rgb(79,78,78);
+	background: linear-gradient(90deg, rgba(79,78,78,1) 0%, rgba(212,212,212,1) 100%);
+}
+
+.card-image{
+	width: 100%;
+	padding: 50% 0;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+}
+
+@media screen and (max-width: 1350px){
+	.card{
+		width: 90%;
+		margin: 5%;
+	}
+}
