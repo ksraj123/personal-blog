@@ -1,4 +1,47 @@
-/*contains styles specific to homepage*/
+@import url("styles.css"); /*importing common styles*/
+@import url("images.css");
 
-@import url("styles.css");
-@import url("blogCard.css");
+/*styling of blog post cards on homepage*/
+
+.card{
+	width: 40%;
+}
+
+.card p{
+	font-size: 0.7em;
+	margin: 0;
+}
+
+.card h3{
+	font-weight: 200;
+}
+
+.image{
+	padding: 50% 0;
+}
+
+.buttons{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.button{
+    background-color: #888888;
+    color: black;
+    padding: 8px 20px;
+    text-decoration:none;
+    border-radius:5px;
+    cursor:pointer;
+}
+
+.button:hover{
+    background-color: #00b7ff;
+    color: white;
+}
+
+@media screen and (max-width: 1350px){
+	.card{
+		width: 90%;
+		margin: 5%;
+	}
+}

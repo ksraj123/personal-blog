@@ -1,0 +1,51 @@
+@import url("styles.css"); /*importing common styles*/
+@import url("images.css");
+
+.blogPost{
+    width: 90%;
+}
+
+.image{
+	padding: 20% 0;
+}
+
+.author{
+    display: flex;
+    align-items: center;
+}
+
+.avatar{
+    background-image: url(../images/myAvatar.jpg);
+    width: 5em;
+    height: 5em;
+    background-size: contain;
+    background-position: center;
+    border-radius: 50%;
+    flex-shrink: 0;
+    margin: 30px;
+}
+
+.author-details{
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-shrink: 1;
+}
+
+.author-details span{
+    font-size: 0.7em;
+}
+
+.share{
+    font-size: 2em;
+    display: flex;
+    justify-content: space-around;
+}
+
+.share i{
+    padding: 0.5em;
+    background-color: white;
+    border-radius: 50%;
+    margin: 30px;
+}
