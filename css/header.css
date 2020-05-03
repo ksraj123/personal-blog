@@ -1,4 +1,4 @@
-header{
+header {
  	margin: 0 auto;
  	color: #F8F8FF;
  	width: 100%;
@@ -14,21 +14,21 @@ header{
 	box-sizing: border-box;
 }
 
-header h1{
+#header-title {
 	font-size: 3em;
 	font-family: 'Shadows Into Light';
 	margin-bottom: 5px;
 	text-align: center;
 }
 
-header h3{
+#header-message {
 	font-family: 'Comic Nune';
 	margin-left: 1em;
 	text-align: center;
 }
 
-@media screen and (max-width: 1350px){
-	header{
+@media screen and (max-width: 1350px) {
+	header {
 		display: flex;
 		flex-direction: column;
 		align-items: center;

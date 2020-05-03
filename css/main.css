@@ -4,7 +4,7 @@
 @import url("navbar.css");
 @import url("header.css");
 
-body{
+body {
 	margin: 0;
 	padding: 0;
 	font-size: 30px;
@@ -14,18 +14,18 @@ body{
 	overflow: hidden;
 }
 
-h1, h2, h3, p{
+h1, h2, h3, p {
 	margin: 0;
 }
 
-.container{
+.container {
 	height: 100vh;
 	display: grid;
 	grid-template-columns: repeat(12, 1fr);
 	grid-template-rows: 20vh auto 8vh;
 }
 
-main{
+main {
 	grid-column: 3 / -1;
 	display: flex;
 	overflow-y: scroll;
@@ -42,7 +42,7 @@ main::-webkit-scrollbar-thumb {
 	border-radius: 10px;
 }
 
-.box{
+.box {
     margin: 5%;
 	text-align: justify;
 	padding: 1em;
@@ -53,25 +53,25 @@ main::-webkit-scrollbar-thumb {
 	flex-direction: column;
 }
 
-.seperator{
+.seperator {
 	width: 100%;
 	height: 3px;
 	margin: 0.3em 0px;
 }
 
-.seperator.visible{
+.seperator.visible {
 	background: rgb(79,78,78);
 	background: linear-gradient(90deg, rgba(79,78,78,1) 0%, rgba(212,212,212,1) 100%);
 }
 
-.image{
+.image {
 	width: 100%;
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center center;
 }
 
-footer{
+footer {
 	grid-column: 1/-1;
 	display: flex;
 	justify-content: flex-end;
@@ -80,37 +80,37 @@ footer{
  	backdrop-filter: blur(5px);
 }
 
-.social{
+.social {
 	margin: 30px;
 	cursor: pointer;
 }
 
-a{
+a {
 	text-decoration: none;
 }
 
-footer a:visited{
+footer a:visited {
 	color: black;
 }
 
-@media screen and (max-width: 1350px){
-	body{
+@media screen and (max-width: 1350px) {
+	body {
 		font-size: 50px;
 		overflow-y: visible;
 	}
-	header h3{
+	header h3 {
 		font-size: 0.8em;
 	}
 
-	main{
+	main {
 		grid-column: 1 / -1;
 		overflow-y: visible;
 	}
-	.container{
+	.container {
 		height: auto;
 		grid-template-rows: none;
 	}
-	footer{
+	footer {
 		justify-content: space-around;
 	}
 }
