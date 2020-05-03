@@ -15,11 +15,9 @@
 }
 
 .avatar {
-    background-image: url(../images/myAvatar.jpg);
+    background: url(../images/myAvatar.jpg) center/contain no-repeat ;
     width: 5em;
     height: 5em;
-    background-size: contain;
-    background-position: center;
     border-radius: 50%;
     flex-shrink: 0;
     margin: 30px;
@@ -46,7 +44,7 @@
 
 .share .icons {
     padding: 0.5em;
-    background-color: white;
+    background-color: #FFF;
     border-radius: 50%;
     margin: 30px;
 }
