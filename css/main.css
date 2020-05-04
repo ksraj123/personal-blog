@@ -21,6 +21,13 @@ h1, h2, h3, p {
 	text-decoration: underline;
 }
 
+.button-inherit{
+	font-size: inherit;
+	font-family: inherit;
+	border: 0;
+	background: none;
+}
+
 .container {
 	height: 100vh;
 	display: grid;
