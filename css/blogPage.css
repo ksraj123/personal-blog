@@ -1,12 +1,15 @@
 @import url("main.css"); /*importing common styles*/
-@import url("images.css");
 
 .blogPost {
     width: 90%;
 }
 
-.image {
-	padding: 20% 0;
+.fig{
+    width: 100%;
+}
+
+.fig img{
+    width: 100%;
 }
 
 .author {
