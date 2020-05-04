@@ -17,6 +17,10 @@ h1, h2, h3, p {
 	margin: 0;
 }
 
+.underline{
+	text-decoration: underline;
+}
+
 .container {
 	height: 100vh;
 	display: grid;
