@@ -4,12 +4,12 @@
     width: 90%;
 }
 
-.fig{
+figure{
     width: 100%;
-}
-
-.fig img{
-    width: 100%;
+    margin: 1em 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .author {
